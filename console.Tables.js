@@ -1,5 +1,6 @@
 const cTable = require("console.table");
 
+
 // console.table for "view all departments"
 const departmentsTable = cTable([
     {
