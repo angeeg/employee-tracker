@@ -17,7 +17,7 @@ This CLI node.js application was built with a MySQL database to store employee i
 ## Usage 
 Once you run 'npm start' in the command line, you will be prompted to select if you would like to view certain data tables or update a table. 
 
-[Walk-through video 1.](https://drive.google.com/file/d/1I_iOVVTTbeFslTD5a0pehVUlBOlPNg6N/view)
+[Walk-through video.](https://drive.google.com/file/d/1I_iOVVTTbeFslTD5a0pehVUlBOlPNg6N/view)
 
 
 ### Technologies Used:
