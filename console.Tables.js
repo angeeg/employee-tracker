@@ -1,5 +1,6 @@
 const cTable = require("console.table");
 
+
 // console.table for "view all departments"
 const departmentsTable = cTable([
     {
@@ -24,8 +25,8 @@ const employeesTable = cTable([
        id: employee.id,
        first_name: employee.first_name, 
        last_name: employee.last_name,
-       role: employee.role_id,
-       manager: employee.manager_id
+       role: employee.role_title,
+       manager: employee.manager_name
     }
 ]);
 
