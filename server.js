@@ -160,11 +160,13 @@ function init() {
       });
     }
     if (answers === choice[5]) {
+      inquirer.prompt(addEmployee).then((answers) => {
       db.query("INSERT INTO employee SET ?", answers, (err, data) => {
         if (err) throw err;
         console.table(data);
         init();
       });
+    })
     }
 
     if (answers === choice[6]) {
